@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="d85c8222-70ee-4534-a1c2-02e09bb7f9c9" name="Products" linkedPackageId="c7ef3865-eaae-43a0-bdb5-96d42c08738e" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="ee7d6d0f-4d91-4969-905c-a8b4218bc21d">
+      <profileInstance Id="89f2db72-385b-4f9e-8d7b-6c3053d7e3c6" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="99f8bfce-6848-4f77-8ac7-454fd205c801">
+      <profileInstance Id="baade41b-3a32-4bb2-beb9-0638d54d6acf" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="78900dce-cdd4-4694-bc3a-aee178318a11" name="Products" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="65740b9a-0a50-4d5a-9559-d7966e5ce846" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1b6d27f5-df75-4ed2-8538-ecf856158d42" name="Appreal" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f2217c26-9a9a-474e-b069-546b2019b85c" />
+        <generalsInternal>
+          <generalization Id="5d5a2e98-2d83-45bf-b82b-36baf72846a6" isSubstitutable="false">
+            <classMoniker Id="78900dce-cdd4-4694-bc3a-aee178318a11" LastKnownName="Products" />
+            <elementDefinition Id="b18e48c0-1cc2-45bb-869f-3f0f6d1a0792" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2aa44ee5-a4bc-4f29-94d9-83aad0a43b2a" name="Media" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f0b36a2e-d958-4330-89ac-f8d885250adb" />
+        <generalsInternal>
+          <generalization Id="fff03179-89a7-4fed-b167-92d44ea992d4" isSubstitutable="false">
+            <classMoniker Id="78900dce-cdd4-4694-bc3a-aee178318a11" LastKnownName="Products" />
+            <elementDefinition Id="a99a8adc-d18b-4738-a610-6591e4671fd9" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5adcf3dd-a9d6-489f-bbd6-a212b810887b" name="DressShirt" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b3496991-6fe7-45c7-bb56-c98a88d5fd92" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="087ef030-79cd-468d-a9d6-541b802a2b5a" name="Tshirt" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="840712bc-92e1-4426-86d0-f290b347dee0" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="c7ef3865-eaae-43a0-bdb5-96d42c08738e" name="ModelingProject1">
+    <elementDefinition Id="42b7965f-466b-4713-888d-a385fe23555f" />
+  </package>
+</logicalClassDesignerModel>
